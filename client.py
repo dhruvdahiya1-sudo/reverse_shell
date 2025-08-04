@@ -3,7 +3,7 @@ import os
 import subprocess
 
 def client_side():
-    host = "192.168.234.128"
+    host = "enter the ip of server machine"
     port = 9000
     s = socket.socket()
     s.connect((host, port))
